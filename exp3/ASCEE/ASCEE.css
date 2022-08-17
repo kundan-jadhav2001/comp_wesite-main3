@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #b9b8eb;
+}
+
+nav{
+  margin: 10px;
+  padding: 2px 2px 2px 2px;
+  text-align: right;
+}
+
+.logo{
+  height: 50px;
+  margin-top: 5px;
+  position: relative;
+  float: left;
+}
+
+.home, .faculty, .activites, .labinfo, .classifo, .studentinfo{
+  margin-left: 30px; 
+}
+
+.studentinfo{
+  margin-right: 200px;
+}
+

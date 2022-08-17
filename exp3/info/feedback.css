@@ -1,0 +1,36 @@
+body {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #b9b8eb;
+}
+
+nav{
+  margin: 10px;
+  padding: 2px 2px 2px 2px;
+  text-align: right;
+}
+
+.logo{
+  height: 50px;
+  margin-top: 5px;
+  position: relative;
+  float: left;
+}
+
+.home, .faculty, .activites, .labinfo, .classifo, .studentinfo, .feedback{
+  margin-left: 30px; 
+}
+
+.fullname, .email, .comments{
+  width: 250px;
+  font-size: 15px;
+  margin-left: 45%
+}
+
+.fullnamet, .emailt, .gendert, .commentst, .submit, .male, .female, .trans{
+  margin-left: 45%;
+}
+
+.comments{
+  height: 100px;
+}

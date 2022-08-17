@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+nav{
+    margin: 10px;
+    padding: 2px 2px 2px 2px;
+    text-align: right;
+    
+}
+
+.logo{
+    height: 50px;
+    margin-top: 5px;
+    position: relative;
+    float: left;
+}
+
+.home, .faculty, .activites, .labinfo, .classifo, .studentinfo{
+    margin-left: 30px; 
+}
+.studentinfo{
+    margin-right: 200px;
+}
+
+.img{
+    width: 99%;
+    height: 700px;
+    margin: 10px 2px 2px 2px;
+    border: 3px solid black;
+}
+
