@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer</title>
     <link rel="stylesheet" href="feedback.css">
+    <script>
+        function sure(){
+        var check = confirm("Do you really want to submit?");
+    
+        if (check== true){
+            alert("From has been submitted sucessfully");
+        }
+        else{
+            alert("form has not been submmited")
+        }
+    
+    }
+    </script>
+    
+
 </head>
 <body>
     
@@ -24,7 +39,7 @@
     <br>
     <br>
     <br>
-    <form action="submit.html">
+    <form>
         <label for="fullName" class="fullnamet">Your Name</label> <br>
         <input type="text" name="fullName" class="fullname" required><br><br>
     
@@ -40,8 +55,8 @@
         <label for="comments" class="commentst">Your Comments</label> <br>
         <textarea name="comments" class="comments" required></textarea><br><br>
     
-        <input value="Submit" class="submit" type="submit">
-        <input type="reset" value="Clear" class="reset" required>
+        <input value="Submit" class="submit" type="submit" onclick="sure()">
+        <input type="reset" value="Clear" class="reset">
     </form>
 
     
